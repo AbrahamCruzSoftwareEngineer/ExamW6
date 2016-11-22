@@ -1,11 +1,11 @@
 
 package com.evolutiondso.www.examw6.entities;
 
-import java.util.ArrayList;
-import java.util.List;
-import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Example {
@@ -53,4 +53,11 @@ public class Example {
         this.info = info;
     }
 
+    @Override
+    public String toString() {
+        return "Example{" +
+                "results=" + results +
+                ", info=" + info +
+                '}';
+    }
 }
