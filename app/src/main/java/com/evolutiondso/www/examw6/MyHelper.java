@@ -13,6 +13,7 @@ import retrofit2.http.GET;
 import rx.Observable;
 import rx.schedulers.Schedulers;
 
+
 /**
  * Created by jluis on 11/22/16.
  */
